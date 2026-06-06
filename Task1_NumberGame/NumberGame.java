@@ -75,7 +75,7 @@ public class NumberGame {
         }
         
         if (userGuess != secretNumber) {
-            displayGameOver(secretNumber, attempts);
+            displayGameOver(secretNumber);
         }
     }
     
@@ -95,7 +95,7 @@ public class NumberGame {
         System.out.println("Round Score: " + roundScore + " points\n");
     }
     
-    private void displayGameOver(int secretNumber, int attempts) {
+    private void displayGameOver(int secretNumber) {
         System.out.println("\nGAME OVER! You've used all " + MAX_ATTEMPTS + " attempts!");
         System.out.println("The correct number was: " + secretNumber + "\n");
     }
@@ -115,6 +115,5 @@ public class NumberGame {
             System.out.println("Average Score per Round: " + String.format("%.2f", averageScore));
         }
         System.out.println("\nThanks for playing!\n");
-        scanner.close();
     }
 }
