@@ -17,7 +17,7 @@
 
 ## 📖 About
 
-A console-based Java application that performs currency conversion between multiple currencies. The program allows users to select base and target currencies, input conversion amounts, and displays the converted values with current exchange rates.
+A console-based Java application that performs currency conversion between multiple currencies. The program allows users to select base and target currencies, input conversion amounts, and displays the converted values using live exchange rates fetched from `open.er-api.com`.
 
 ## 🏷️ GitHub Topics
 
@@ -44,7 +44,7 @@ Release notes should mention supported currencies, exchange-rate assumptions, an
 ## ✨ Features
 
 - ✅ **Currency Selection** — Choose from 10+ supported currencies
-- ✅ **Exchange Rates** — Pre-configured real exchange rates
+- ✅ **Exchange Rates** — Live rates fetched from the exchange-rate API
 - ✅ **Amount Input** — Input and validate conversion amount
 - ✅ **Conversion Logic** — Accurate currency conversion calculations
 - ✅ **Result Display** — Clear display of converted amount and currency
@@ -79,6 +79,8 @@ Or use the provided scripts:
 run.bat        # Windows
 ```
 
+The app fetches the current rates at runtime, so the INR value can change over time instead of staying fixed.
+
 ---
 
 ## 💻 Usage Example
@@ -96,7 +98,7 @@ Enter amount to convert: 100
 
 CONVERSION RESULT
 
-100.00 USD = 92.00 EUR
+100.00 USD = live converted amount EUR
 
 Convert again? (yes/no): yes
 ```
@@ -118,18 +120,20 @@ Task4_CurrencyConverter/
 
 ## 💱 Supported Currencies
 
-| Code | Currency | Rate (to USD) |
-|------|----------|---------------|
-| USD  | US Dollar | 1.00 |
-| EUR  | Euro | 0.92 |
-| GBP  | British Pound | 0.79 |
-| INR  | Indian Rupee | 83.12 |
-| JPY  | Japanese Yen | 149.50 |
-| AUD  | Australian Dollar | 1.53 |
-| CAD  | Canadian Dollar | 1.36 |
-| CHF  | Swiss Franc | 0.88 |
-| CNY  | Chinese Yuan | 7.24 |
-| SGD  | Singapore Dollar | 1.35 |
+| Code | Currency |
+|------|----------|
+| USD  | US Dollar |
+| EUR  | Euro |
+| GBP  | British Pound |
+| INR  | Indian Rupee |
+| JPY  | Japanese Yen |
+| AUD  | Australian Dollar |
+| CAD  | Canadian Dollar |
+| CHF  | Swiss Franc |
+| CNY  | Chinese Yuan |
+| SGD  | Singapore Dollar |
+
+The actual exchange rate for each currency is fetched live from the API at runtime.
 
 ---
 
