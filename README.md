@@ -361,7 +361,7 @@ See [LICENSE](LICENSE) file for full details.
 
 <div align="center">
 
-### Made with ❤️ by CODSOFT Interns
+### Made with ❤️ by LegendarySumit
 
 *Building practical solutions, one project at a time*
 
