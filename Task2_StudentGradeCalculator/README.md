@@ -19,6 +19,26 @@
 
 A console-based Java application that calculates student grades based on marks obtained in multiple subjects. The program computes total marks, average percentage, and assigns corresponding grades.
 
+## 🏷️ GitHub Topics
+
+Recommended GitHub About topics for this task:
+
+- `codsoft`
+- `java`
+- `cli`
+- `grade-calculator`
+- `student-marks`
+- `console-application`
+
+## 📦 Releases & Source Code
+
+This folder contains the complete source code and supporting files for the task. If you publish a GitHub Release, attach:
+
+- the source code archive for `Task2_StudentGradeCalculator`
+- a compiled `.jar` file if you want a runnable release
+
+Release notes should summarize the grading rules, input format, and any validation changes.
+
 ---
 
 ## ✨ Features
@@ -102,6 +122,12 @@ Task2_StudentGradeCalculator/
 - **Language:** Java 11+
 - **Interface:** CLI (Command Line)
 - **Build:** Manual Compilation
+
+## 📦 Release Packaging
+
+- **Source Archive** — GitHub source code zip/tarball
+- **JAR Release** — Optional compiled artifact for end users
+- **Documentation** — Keep this README in every release
 
 ---
 

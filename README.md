@@ -19,9 +19,9 @@
 
 ## 📖 About
 
-**CODSOFT** is a curated collection of Java-based projects developed during the CODSOFT internship, focused on practical problem-solving, clean code architecture, and production-ready distribution.
+**CODSOFT** is a collection of standalone Java internship tasks grouped under one parent repository. Each task folder is self-contained and keeps its own `README.md`, `LICENSE`, and `.gitignore` so the project can be run, shared, and maintained independently.
 
-The repository includes interactive CLI applications, algorithmic implementations, and real-world problem solutions. Each project is designed as a standalone application with comprehensive documentation, launcher scripts, and release-ready executable support.
+The repository currently includes CLI applications for a number game, a student grade calculator, and a currency converter. The root `.gitignore` exists to keep compiled Java classes, IDE metadata, and temporary files out of version control across all task folders.
 
 ---
 
@@ -36,6 +36,32 @@ The repository includes interactive CLI applications, algorithmic implementation
 - ✅ Cross-platform compatibility (Windows, Linux, macOS)
 - ✅ MIT Licensed - free to use, modify, and distribute
 
+## 🏷️ GitHub Topics
+
+Use these topics in the GitHub About section to make the repository easier to discover:
+
+- `codsoft`
+- `java`
+- `cli`
+- `console-application`
+- `interview-project`
+- `student-project`
+- `currency-converter`
+- `number-game`
+
+## 📦 Releases
+
+Each task folder contains the full source code, launcher scripts, license, and its own README. If you publish GitHub Releases for this repository, attach either:
+
+- the source code archive for the task folder, or
+- a compiled release artifact such as a `.jar` file for Java users.
+
+Recommended release notes:
+
+1. what changed in the task
+2. how to run it from source
+3. what file to download from Releases
+
 ---
 
 ## 📦 Projects
@@ -43,8 +69,8 @@ The repository includes interactive CLI applications, algorithmic implementation
 | Task | Project | Folder | Description | Status |
 |------|---------|--------|-------------|--------|
 | **Task 1** | **Number Game** | `Task1_NumberGame` | Interactive CLI number guessing game with scoring system | ✅ Active |
-| **Task 2** | **Calculator** | `Task2_Calculator` | Advanced calculator with multiple operations | 🔄 Coming Soon |
-| **Task 3** | **Student Grade Tracker** | `Task3_StudentGradeTracker` | Grade management and analytics system | 🔄 Coming Soon |
+| **Task 2** | **Student Grade Calculator** | `Task2_StudentGradeCalculator` | Calculates total marks, average percentage, and grade | ✅ Active |
+| **Task 4** | **Currency Converter** | `Task4_CurrencyConverter` | Converts amounts between supported currencies | ✅ Active |
 
 ---
 
@@ -72,22 +98,24 @@ CODSOFT/
 │   ├── README.md
 │   ├── LICENSE
 │   └── .gitignore
-├── Task2_Calculator/                (Coming Soon)
-│   ├── Calculator.java
+├── Task2_StudentGradeCalculator/
+│   ├── StudentGradeCalculator.java
 │   ├── run.bat
 │   ├── run.sh
 │   ├── README.md
-│   └── ...
-├── Task3_StudentGradeTracker/       (Coming Soon)
-│   ├── GradeTracker.java
+│   ├── LICENSE
+│   └── .gitignore
+├── Task4_CurrencyConverter/
+│   ├── CurrencyConverter.java
 │   ├── run.bat
 │   ├── run.sh
 │   ├── README.md
-│   └── ...
+│   ├── LICENSE
+│   └── .gitignore
 ├── README.md                         # Root project overview
 ├── LICENSE                           # MIT License
 ├── .gitignore                        # Git ignore rules
-└── .gitattributes                    # Git attributes config
+└── (task folders remain self-contained)
 ```
 
 ---
@@ -131,6 +159,8 @@ javac NumberGame.java
 java NumberGame
 ```
 
+Use the same pattern inside `Task2_StudentGradeCalculator` or `Task4_CurrencyConverter` for the other tasks.
+
 ### Verify Java Installation
 
 ```bash
@@ -155,8 +185,8 @@ Each project includes:
 ### Quick Links
 
 - [Task 1: Number Game](Task1_NumberGame/README.md) — Interactive guessing game
-- Task 2: Calculator (Coming Soon)
-- Task 3: Student Grade Tracker (Coming Soon)
+- [Task 2: Student Grade Calculator](Task2_StudentGradeCalculator/README.md) — Marks, averages, and grades
+- [Task 4: Currency Converter](Task4_CurrencyConverter/README.md) — Multi-currency conversion tool
 
 ---
 
@@ -278,10 +308,7 @@ cd Task1_NumberGame
 javac NumberGame.java
 ```
 
-### Port Already in Use (for server projects)
-```
-Change port number in configuration file
-```
+The same idea applies to the other task folders: run the compile command from inside the folder that contains the Java file.
 
 ---
 
@@ -321,8 +348,10 @@ See [LICENSE](LICENSE) file for full details.
 ## 🎯 Roadmap
 
 - [x] Task 1 - Number Game (v1.0.0)
-- [ ] Task 2 - Calculator (v1.0.0)
-- [ ] Task 3 - Student Grade Tracker (v1.0.0)
+- [x] Task 2 - Student Grade Calculator (v1.0.0)
+- [x] Task 4 - Currency Converter (v1.0.0)
+- [ ] Publish GitHub Releases for each task
+- [ ] Add GitHub topics to the repository About section
 - [ ] Automated Release Builds (CI/CD)
 - [ ] Web-based versions
 - [ ] Mobile adaptations

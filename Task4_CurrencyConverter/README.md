@@ -19,6 +19,26 @@
 
 A console-based Java application that performs currency conversion between multiple currencies. The program allows users to select base and target currencies, input conversion amounts, and displays the converted values with current exchange rates.
 
+## 🏷️ GitHub Topics
+
+Recommended GitHub About topics for this task:
+
+- `codsoft`
+- `java`
+- `cli`
+- `currency-converter`
+- `finance-tools`
+- `console-application`
+
+## 📦 Releases & Source Code
+
+This folder contains the source code and task documentation. If you publish a GitHub Release, attach:
+
+- the source code archive for `Task4_CurrencyConverter`
+- a compiled `.jar` file or packaged executable if available
+
+Release notes should mention supported currencies, exchange-rate assumptions, and how to run the app from source.
+
 ---
 
 ## ✨ Features
@@ -118,6 +138,12 @@ Task4_CurrencyConverter/
 - **Language:** Java 11+
 - **Interface:** CLI (Command Line)
 - **Build:** Manual Compilation
+
+## 📦 Release Packaging
+
+- **Source Archive** — GitHub source code zip/tarball
+- **JAR Release** — Optional compiled artifact for direct execution
+- **Documentation** — Keep this README alongside the release files
 
 ---
 

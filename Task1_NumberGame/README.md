@@ -23,6 +23,27 @@
 
 The game features smart feedback mechanisms, comprehensive scoring calculations, and support for multiple consecutive rounds. It's designed as a learning project for CODSOFT internship, demonstrating core Java concepts including random number generation, user input handling, conditional logic, and game loop mechanics.
 
+## 🏷️ GitHub Topics
+
+Recommended GitHub About topics for this task:
+
+- `codsoft`
+- `java`
+- `cli`
+- `console-game`
+- `number-game`
+- `beginner-friendly`
+
+## 📦 Releases & Source Code
+
+This folder already contains the full source code, scripts, license, and documentation. If you publish a GitHub Release, attach one of the following:
+
+- the source code archive for `Task1_NumberGame`
+- a compiled `.jar` file for direct execution
+- a Windows executable if you package the project later
+
+Release notes should mention the rules of the game, how to compile it, and any gameplay changes.
+
 ---
 
 ## ✨ Features
@@ -49,6 +70,11 @@ The game features smart feedback mechanisms, comprehensive scoring calculations,
 ### Build & Distribution
 - **Native Compilation** — Direct javac compilation (no build tools required)
 - **Batch/Shell Scripts** — Cross-platform launcher utilities
+
+### Release Packaging
+- **Source Archive** — GitHub source code zip/tarball
+- **JAR Release** — Optional compiled artifact for Java users
+- **Windows Package** — Optional executable for non-developers
 
 ---
 
