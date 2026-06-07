@@ -352,7 +352,7 @@ For questions or issues, please:
 
 <div align="center">
 
-### Made with ❤️ by CODSOFT
+### Made with ❤️ by LegendarySumit
 
 *Empowering learners through practical projects*
 
